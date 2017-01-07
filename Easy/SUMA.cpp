@@ -4,11 +4,11 @@
 using namespace std;
 int main()
 {
-	int suma=0,x;
-	while (cin>>x)
-	{
-		suma+=x;
-		cout<<suma<<endl;
-	};
-	return 0;
+  int suma=0,x;
+  while (cin>>x)
+  {
+    suma+=x;
+    cout<<suma<<endl;
+  };
+  return 0;
 }

@@ -6,9 +6,9 @@
 using namespace std;
 int main()
 {
-	double r,d;
-	cin>>r>>d;
-	double pole=PI*(r*r-d*d/4);
-	printf("%.2f",pole);
-	return 0;
+  double r,d;
+  cin>>r>>d;
+  double pole=PI*(r*r-d*d/4);
+  printf("%.2f",pole);
+  return 0;
 }

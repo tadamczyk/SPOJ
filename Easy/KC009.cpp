@@ -6,11 +6,11 @@
 using namespace std;
 int main()
 {
-	string x;
-	while (!getline(cin,x).eof())
-	{
-		reverse(x.begin(),x.end());
-		cout<<x<<endl;
-	}
-	return 0;
+  string x;
+  while (!getline(cin,x).eof())
+  {
+    reverse(x.begin(),x.end());
+    cout<<x<<endl;
+  }
+  return 0;
 }
